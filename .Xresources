@@ -1,0 +1,59 @@
+URxvt.perl-ext-common: default, clipboard, keyboard-select
+
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=10
+URxvt.scrollBar: false
+! Narrower kerning, not sure about this one yet
+! URxvt.letterSpace: -1
+
+! Scrollback - allow scrollback while output is going on
+! do not scroll with new output
+URxvt.scrollTtyOutput: false
+! scroll in relation to buffer (with mouse scroll or Shift+PgUp)
+URxvt.scrollWithBuffer: true
+! scroll back to the bottom on keypress
+! might want to disable this
+URxvt.scrollTtyKeypress: true
+
+! Clipboard
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: eval:selection_to_clipboard
+URxvt.keysym.M-v: eval:paste_clipboard
+URxvt.keyboard-select.clipboard: true
+
+! special
+*.foreground:   #666699
+*.background:   #000000
+*.cursorColor:  #666699
+
+! black
+*.color0:       #333366
+*.color8:       #333399
+
+! red
+*.color1:       #6666cc
+*.color9:       #9999ff
+
+! green
+*.color2:       #0099cc
+*.color10:      #00ccff
+
+! yellow
+*.color3:       #3366cc
+*.color11:      #6699ff
+
+! blue
+*.color4:       #006699
+*.color12:      #0099cc
+
+! magenta
+*.color5:       #0066ff
+*.color13:      #0099ff
+
+! cyan
+*.color6:       #669999
+*.color14:      #66cccc
+
+! white
+*.color7:       #99cccc
+*.color15:      #ccffff
+

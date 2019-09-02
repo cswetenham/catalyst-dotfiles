@@ -1,0 +1,47 @@
+# Ignore everything by default
+*
+
+# Include git config
+!.gitconfig
+!.gitignore
+
+# Include shell config
+!.profile
+!.bashrc
+!.bash_profile
+!.zprofile
+!.zlogin
+!.zsh
+!.zsh/**
+# TODO will have to allow other things under zsh
+!.zshenv
+!.zshrc
+
+# Vim config
+!.vim
+!.vim/**
+!.vimrc
+
+# Screen and tmux
+!.screenrc
+!.tmux.conf
+!.tmux
+!.tmux/**
+
+#i3
+#TODO
+
+# dmenu
+!.dmrc
+
+# urxvt
+!.xinitrc
+!.Xresources
+!.urxvt
+!.urxvt/**
+
+!.config
+!.config/i3
+!.config/i3/**
+!.config/i3status
+!.config/i3status/**
