@@ -16,6 +16,7 @@
 # TODO will have to allow other things under zsh
 !.zshenv
 !.zshrc
+!.ys-fib.zsh-theme
 
 # Vim config
 !.vim
