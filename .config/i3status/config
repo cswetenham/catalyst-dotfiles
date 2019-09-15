@@ -6,8 +6,10 @@
 # ß
 # If the above line is not correctly displayed, fix your editor first!
 
+#set_from_resource $good i3wm.colour3
+
 general {
-        colors = true
+        colors = false #can't set from pywal I think...
         interval = 5
         output_format = i3bar
 }
