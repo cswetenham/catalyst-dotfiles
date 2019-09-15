@@ -6,3 +6,6 @@
 
 # invoke global X session script
 . /etc/X11/Xsession
+
+# restore wal theme
+wal -R
