@@ -20,6 +20,14 @@ URxvt.keysym.M-c: eval:selection_to_clipboard
 URxvt.keysym.M-v: eval:paste_clipboard
 URxvt.keyboard-select.clipboard: true
 
+!fake alpha
+URxvt*transparent: true
+URxvt*shading: 20
+
+!real alpha, if compiz is running
+! urxvt*depth:32
+! urxvt*background: rgba:0000/0000/0200/c800
+
 ! Colours - disabled since I am going to use pywal instead
 ! special
 !*.foreground:   #666699
