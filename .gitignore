@@ -29,9 +29,6 @@
 !.tmux
 !.tmux/**
 
-#i3
-#TODO
-
 # dmenu
 !.dmrc
 
@@ -41,8 +38,17 @@
 !.urxvt
 !.urxvt/**
 
+#i3
 !.config
 !.config/i3
 !.config/i3/**
 !.config/i3status
 !.config/i3status/**
+
+#firefox user css
+!.mozilla
+!.mozilla/firefox
+!.mozilla/firefox/1fkx5jd6.default
+!.mozilla/firefox/1fkx5jd6.default/chrome
+!.mozilla/firefox/1fkx5jd6.default/chrome/userChrome.css
+!.mozilla/firefox/1fkx5jd6.default/chrome/userContent.css
