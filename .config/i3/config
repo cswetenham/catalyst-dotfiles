@@ -66,6 +66,9 @@ bindsym $mod+Shift+q kill
 # installed.
 bindsym $mod+Shift+space exec --no-startup-id i3-dmenu-desktop
 
+# run pywal
+bindsym $mod+Shift+w exec --no-startup-id wal -q --iterative -i ~/Wallpapers
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
