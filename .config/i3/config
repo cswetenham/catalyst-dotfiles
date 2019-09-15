@@ -197,10 +197,10 @@ bar {
 	colors {
 		background $bg
 		statusline $fg
-		#TODO separator $fg # TODO pick another colour
-		#TODO focused_workspace
-		#TODO active_workspace
-		#TODO inactive_workspace
-		#TODO urgent_workspace
+		separator $act
+		focused_workspace $act $act $fg
+		active_workspace $act $act $fg
+		inactive_workspace $bg $bg $fg
+		urgent_workspace $act $act $fg
 	}
 }
