@@ -68,7 +68,10 @@ bindsym $mod+Shift+space exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i
 
 
 # run pywal
-bindsym $mod+Shift+w exec --no-startup-id wal -q --iterative -i ~/Wallpapers/resized
+# shuffle
+bindsym $mod+Shift+w exec --no-startup-id wal -q -i ~/Wallpapers/resized
+# ordered
+#bindsym $mod+Shift+w exec --no-startup-id wal -q --iterative -i ~/Wallpapers/resized
 
 # change focus
 bindsym $mod+j focus left
@@ -202,6 +205,6 @@ bar {
 		focused_workspace $act $act $fg
 		active_workspace $act $act $fg
 		inactive_workspace $bg $bg $fg
-		urgent_workspace $act $act $fg
+		# urgent_workspace $act $act $fg
 	}
 }
