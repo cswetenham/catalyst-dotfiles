@@ -5,6 +5,10 @@
 !.gitconfig
 !.gitignore
 
+# Include homedir python and shell scripts
+*.py
+*.sh
+
 # Include shell config
 !.profile
 !.bashrc
