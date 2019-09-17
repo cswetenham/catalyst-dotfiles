@@ -1,6 +1,9 @@
 # Ignore everything by default
 *
 
+# Include todo file
+!todo.md
+
 # Include git config
 !.gitconfig
 !.gitignore
@@ -17,7 +20,6 @@
 !.zlogin
 !.zsh
 !.zsh/**
-# TODO will have to allow other things under zsh
 !.zshenv
 !.zshrc
 !.ys-fib.zsh-theme
