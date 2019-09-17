@@ -212,3 +212,6 @@ bar {
 		urgent_workspace $act $act $fg
 	}
 }
+
+# restore pywal wallpaper and state
+exec --no-startup-id wal -R
