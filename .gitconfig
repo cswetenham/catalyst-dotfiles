@@ -1,3 +1,5 @@
 [user]
 	name = fib
 	email = 
+[core]
+	editor = vim
