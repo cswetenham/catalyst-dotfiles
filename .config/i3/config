@@ -215,3 +215,6 @@ bar {
 
 # restore pywal wallpaper and state
 exec --no-startup-id wal -R
+
+# start with tabbed workspace
+workspace_layout tabbed
