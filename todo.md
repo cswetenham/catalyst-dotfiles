@@ -27,7 +27,6 @@ Alt+V: paste
 # TODO
 
 - figure out urxvt keyboard-select
-- look into other fonts. Tewi? other small bitmap fonts?
 - set up polybar
 - set up a symbol font for polybar?
 - set up a firefox userContent.css themed from pywal
@@ -40,12 +39,27 @@ Alt+V: paste
 - do something to firefox or userChrome.css to shrink the UI? and remove toolbar things I don't need.
 - set up screenshot and screen recording software
 - set up retropie or some other emulator frontend
-- set up dwarf fortress??
+- set up dwarf fortress? any games playable on pi?
 - set up urxvt clickable urls
 
 - set up... something...so this can also be a usb keyboard? although I can just unplug the keyboard part and plug it into something else
 
-- set up a boot/login screen. Might be 2 or 3 different ones to set; could make them identical or have a bit of extra text to indicate boot stage. Could use patlabor boot screen.
+# NOTES
 
-- set up Luxi Mono, although it might look bad at this screen's resolution
+## Boot screens
 
+I am working through https://yingtongli.me/blog/2016/12/21/splash.html for the boot screen setup. It goes into system folders and not dotfiles so I can't commit the changes.
+
+Edit: I only did the paths up to the boot commandline, then used the below for other splashscreens
+
+Okay, looks like I also need steps from https://github.com/raspberrypi/firmware/issues/580 because I set up using NOOBS.
+
+Okay, and https://github.com/recalbox/recalbox-os/wiki/Skip-noobs-screen-(EN)
+I used `boot_partition=6` and that worked.
+
+Now going to create a copy of the plymouth theme so it isn't overwritten by updates:
+https://www.raspberrypi.org/forums/viewtopic.php?t=197472
+
+## Fonts
+
+Installed Luxi Mono by going to wikipedia article and using the download link, then using `tar xjvf` and copying them to `~/.fonts`...? Then doing `fc-cache -v -f`?

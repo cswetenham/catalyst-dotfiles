@@ -1,6 +1,7 @@
 URxvt.perl-ext-common: default, clipboard, keyboard-select
 
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=10
+!URxvt.font: xft:DejaVu Sans Mono:pixelsize=10
+URxvt.font: xft:Luxi Mono:pixelsize=10
 URxvt.scrollBar: false
 ! Narrower kerning, not sure about this one yet
 ! URxvt.letterSpace: -1
