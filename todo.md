@@ -27,7 +27,7 @@ Alt+V: paste
 # TODO
 
 - figure out urxvt keyboard-select
-- look into other fonts
+- look into other fonts. Tewi? other small bitmap fonts?
 - set up polybar
 - set up a symbol font for polybar?
 - set up a firefox userContent.css themed from pywal
@@ -38,4 +38,14 @@ Alt+V: paste
   mogrify -resize 800x480^ -gravity Center -extent 800x480 -path ~/Wallpapers/resized *.*
 - set up music player, scenesat radio, animenfo radio. some cli player?
 - do something to firefox or userChrome.css to shrink the UI? and remove toolbar things I don't need.
+- set up screenshot and screen recording software
+- set up retropie or some other emulator frontend
+- set up dwarf fortress??
+- set up urxvt clickable urls
+
+- set up... something...so this can also be a usb keyboard? although I can just unplug the keyboard part and plug it into something else
+
+- set up a boot/login screen. Might be 2 or 3 different ones to set; could make them identical or have a bit of extra text to indicate boot stage. Could use patlabor boot screen.
+
+- set up Luxi Mono, although it might look bad at this screen's resolution
 
