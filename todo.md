@@ -40,15 +40,32 @@ Alt+V: paste
 - set up screenshot and screen recording software
 - set up retropie or some other emulator frontend
 - set up dwarf fortress? any games playable on pi?
-- set up urxvt clickable urls
+- set up vim to yank to system clipboard
 
 - set up... something...so this can also be a usb keyboard? although I can just unplug the keyboard part and plug it into something else
+
+For games, I'll need to control them sensibly-all I have is the touch screen and the keyboard, and the keyboard is full of chording magic that will mess up as soon as I try to play something.
+- I have no modtap keys on the top or bottom rows. I could have a row of directions on e.g. the bottom row, and actions on the right hand bottom row, if the game is simple enough and configurable enough.
+- a pure roguelike like nethack would also be fine
+- Later, I could flash the keyboard to have a "gaming" layer that stays activated and just gives me standard keys.
+  - installing what I need to reflash the keyboard on the pi itself would be optimal. right now for whatever reason I need my windows machine for the flashing to actually work.
+  - I'll need a tiny wire or something to bridge the top-of-board reset pins (assuming they even work). Once I've done it once, I can include a reset chord into the keymap and make sure it works on both keyboard halves once unplugged (right now left half is determined by which has the usb plugged in; I think if I plug it into the right half I just get a mirrored keymap.)
+
+- set up qmk firmware building and flashing on the pi
+
+# Descent controls
+qwer - rotation
+vb - primary and secondary fire
+uiop - strafing
+nm - forward and back
+ideally ty would select prev/next primary and gh prev/next secondary but those aren't binds, instead you have to have a bind for each weapon?
 
 # NOTES
 
 ## Boot screens
 
 I am working through https://yingtongli.me/blog/2016/12/21/splash.html for the boot screen setup. It goes into system folders and not dotfiles so I can't commit the changes.
+
 
 Edit: I only did the paths up to the boot commandline, then used the below for other splashscreens
 
