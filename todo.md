@@ -51,8 +51,6 @@ For games, I'll need to control them sensibly-all I have is the touch screen and
   - installing what I need to reflash the keyboard on the pi itself would be optimal. right now for whatever reason I need my windows machine for the flashing to actually work.
   - I'll need a tiny wire or something to bridge the top-of-board reset pins (assuming they even work). Once I've done it once, I can include a reset chord into the keymap and make sure it works on both keyboard halves once unplugged (right now left half is determined by which has the usb plugged in; I think if I plug it into the right half I just get a mirrored keymap.)
 
-- set up qmk firmware building and flashing on the pi
-
 # Descent controls
 qwer - rotation
 vb - primary and secondary fire
@@ -80,3 +78,19 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=197472
 ## Fonts
 
 Installed Luxi Mono by going to wikipedia article and using the download link, then using `tar xjvf` and copying them to `~/.fonts`...? Then doing `fc-cache -v -f`?
+
+## QMK
+
+Flashing minidox from the pi works!
+- start flash command...twice? make minidox/rev1:catalyst:avrdude && make minidox/rev1:catalyst:avrdude?
+- disconnect usb
+- disconnect trrs
+- connect usb to left half
+- hold both layers and press z to reset
+- disconnect usb
+- connect usb to right half
+- hold both layers and press z (mirrored) to reset
+- disconnect usb
+- reconnect trrs
+- reconnect usb
+
