@@ -26,6 +26,7 @@ Alt+V: paste
 
 # TODO
 
+- set up a version of vim that has xterm clipboard support...
 - figure out urxvt keyboard-select
 - set up polybar
 - set up a symbol font for polybar?
